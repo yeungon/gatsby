@@ -7,8 +7,8 @@ const About = () => (
   <Layout>
     <h1>About Vuong</h1>
     <p>Đây là trang web của Vượng</p>
-    <Link to="/">Go back to the homepage</Link>
-  	<p>We are going to update the page</p>
+    <Link to="/">Main page</Link>
+  	<p>Stay tune!</p>
   </Layout>
 )
 
