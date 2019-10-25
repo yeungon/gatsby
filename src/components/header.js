@@ -25,6 +25,18 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
+        <span style={{paddingLeft: '25px'}}></span>
+          <Link
+          to="/about"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+          }}
+        >
+          about
+        </Link>
+
+
       </h1>
     </div>
   </div>

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: "Vuong Nguyen's Page",
   },
   plugins: [
     'gatsby-plugin-react-helmet',
