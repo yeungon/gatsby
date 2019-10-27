@@ -5,10 +5,11 @@ import Layout from '../components/layout'
 
 const About = () => (
   <Layout>
-    <h1>About Vuong</h1>
-    <p>Đây là trang web của Vượng</p>
-    <Link to="/">Main page</Link>
-  	<p>Stay tune!</p>
+   
+<div>
+Hello me!
+<button className ="btn btn-success">Click Me</button>
+</div>
   </Layout>
 )
 
