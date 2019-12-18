@@ -3,14 +3,20 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 
-const About = () => (
+const handleClick = () => {
+  alert("Hello me")
+}
+
+const About = () =>{  
+  return(
   <Layout>
-   
-<div>
-Hello me!
-<button className ="btn btn-success">Click Me</button>
-</div>
+    <div>
+      <h1>About me!</h1>
+      <button onClick={handleClick} className="btn btn-success">Click Me Please</button>
+      <Link to ="/">Back to Home</Link>
+    </div>
   </Layout>
-)
+  )
+}
 
 export default About
