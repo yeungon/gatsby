@@ -6,7 +6,6 @@ import { Global, css } from '@emotion/core'
 
 import Header from './header'
 
-import './inter.css'
 
 const Layout = ({ children }) => (
   <StaticQuery
