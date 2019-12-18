@@ -11,10 +11,10 @@ const IndexPage = () => (
    <h2 
    style = {{
      marginTop: "7%",
-     fontWeight: '900',
+     fontWeight: '800',
      fontSize: '3rem',
      paddingBottom: '3rem',
-     fontFamily: 'Merriweather'
+     color: '#2F4E62'
   
    }}>Kia ora! That is Vuong. </h2>
 
