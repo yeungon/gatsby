@@ -1,21 +1,31 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 
-const handleClick = () => {
-  alert("Hello me")
-}
+const About = () => {
+  return (
+    <Layout>
+      <div>
+        <h1>About me!</h1>
+        <br />
 
-const About = () =>{  
-  return(
-  <Layout>
-    <div>
-      <h1>About me!</h1>
-      <button onClick={handleClick} className="btn btn-success">Click Me Please</button>
-      <Link to ="/">Back to Home</Link>
-    </div>
-  </Layout>
+        <p>
+          In brief, Vuong is addicted to $addiction = []; $addiction["tech"] =
+          "unlimited"; && addiction["philosophy"] = "analytic philosophy aka
+          philosophy of language"; && $addiction ['literature'] = "short
+          stories, currently";
+        </p>
+
+        <br />
+        <p>
+          Fullstack developer, PHP framework creator, JAMstack lover (hint:
+          Gatsby, GridSome): Experienced and work comfortably with, but not
+          limited to, PHP, Laravel, WordPress, Codeigniter, (possibly Symfony ||
+          Silverstripe || any PHP framework && CMS), MySQL, JS, jQuery, Vue.js,
+          ReactJS, Bootstrap, HTML5, CSS. Certified elsewhere.
+        </p>
+      </div>
+    </Layout>
   )
 }
 

@@ -7,7 +7,15 @@ import Layout from '../components/layout'
 const IndexPage = () => (
   <Layout>
     
-   <p>Hello world, this is Vuong 's page. Update.</p>
+   <h3 
+   style = {{
+     marginTop: "10%",
+  
+   }}>Kia ora! That is Vuong's page. </h3>
+
+   <br/>
+   
+    <p>This is my new homepage built on top of headless CMS WordPress && GraphQL && Gatsby.</p>
 
   </Layout>
 )
