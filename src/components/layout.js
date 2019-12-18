@@ -35,9 +35,10 @@ const Layout = ({ children }) => (
           // CSS in JS
           style={{
             margin: '0 auto',
-            maxWidth: 960,
+            maxWidth: 610,
             //padding: '0px 1.0875rem 1.45rem',
             paddingTop: 0,
+           
           }}
         >
           {/* Setting up the global style. Emotion package helps us maintain the style better as we can write normal css insider javascript */}
