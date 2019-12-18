@@ -72,6 +72,7 @@ const NavLink = styled(Link)`
   color: #222;
   font-size: 1rem;
   font-weght: normal;
+  color: '#2F4E62',
   line-height: 1;
   margin: 0 0.5 rem 0 0;
   //padding: 0.25 rem;
