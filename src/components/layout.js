@@ -2,16 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
+import { Global, css } from '@emotion/core'
 
 import Header from './header'
-
-import './main.css'
-
-import './dark-theme.css'
-
-import './bootstrap.min.css'
-
-import './index.css'
 
 
 const Layout = ({ children }) => (
@@ -30,21 +23,47 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
+            { name: 'description', content: 'Web Developer' },
             { name: 'keywords', content: 'sample, something' },
           ]}
         >
           <html lang="en" />
         </Helmet>
+
         <Header siteTitle={data.site.siteMetadata.title} />
+
         <div
-          // style={{
-          //   margin: '0 auto',
-          //   maxWidth: 960,
-          //   padding: '0px 1.0875rem 1.45rem',
-          //   paddingTop: 0,
-          // }}
+          // CSS in JS
+          style={{
+            margin: '0 auto',
+            maxWidth: 960,
+            //padding: '0px 1.0875rem 1.45rem',
+            paddingTop: 0,
+          }}
         >
+          {/* Setting up the global style. Emotion package helps us maintain the style better as we can write normal css insider javascript */}
+          <Global
+            styles={css`
+              * {
+                box-sizing: border-box;
+                margin: 0;
+              }
+
+              body {
+                margin: 0;
+                color: #555;
+                font-family: 'Helvetica', 'Helvetica Neue', Helvetica, Arial,
+                  sans-serif;
+                font-size: 18px;
+                line-height: 1.4;
+              }
+
+              > div {
+                margin-top: 0;
+              }
+            `}
+          />
+
           {children}
         </div>
       </>
