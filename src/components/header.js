@@ -104,6 +104,8 @@ const Header = () => (
       
       <NavLink to="/about" activeClassName = "current-page">about</NavLink>
       <span style={{ paddingLeft: '15%' }} />
+      <NavLink to="/project" activeClassName = "current-page">projects</NavLink>
+      <span style={{ paddingLeft: '15%' }} />
       <NavLink to="/blog" activeClassName = "current-page">blog</NavLink>
       <span style={{ paddingLeft: '15%' }} />
       <NavLink to="/contact" activeClassName = "current-page">contact</NavLink>
