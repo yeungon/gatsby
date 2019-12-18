@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link } from 'gatsby';
+
 
 import Layout from '../components/layout'
 
@@ -7,11 +8,15 @@ import Layout from '../components/layout'
 const IndexPage = () => (
   <Layout>
     
-   <h3 
+   <h2 
    style = {{
-     marginTop: "10%",
+     marginTop: "7%",
+     fontWeight: '900',
+     fontSize: '3rem',
+     paddingBottom: '3rem',
+     fontFamily: 'Merriweather'
   
-   }}>Kia ora! That is Vuong's page. </h3>
+   }}>Kia ora! That is Vuong. </h2>
 
    <br/>
    
