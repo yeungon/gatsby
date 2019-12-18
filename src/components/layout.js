@@ -6,7 +6,6 @@ import { Global, css } from '@emotion/core'
 
 import Header from './header'
 
-
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -49,14 +48,14 @@ const Layout = ({ children }) => (
                 margin: 0;
               }
 
-              body {
-                margin: 0;
-                color: #555;
-                font-family: 'Helvetica', 'Helvetica Neue', Helvetica, Arial,
-                  sans-serif;
-                font-size: 18px;
-                line-height: 1.4;
-              }
+              // body {
+              //   margin: 0;
+              //   color: #555;
+              //   font-family: 'Helvetica', 'Helvetica Neue', Helvetica, Arial,
+              //     sans-serif;
+              //   font-size: 18px;
+              //   line-height: 1.4;
+              // }
 
               > div {
                 margin-top: 0;

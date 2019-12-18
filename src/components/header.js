@@ -74,9 +74,10 @@ const NavLink = styled(Link)`
   font-weght: normal;
   line-height: 1;
   margin: 0 0.5 rem 0 0;
-  padding: 0.25 rem;
+  //padding: 0.25 rem;
   text-decoration: none;
   &.current-page{
+    //padding-bottom: 1rem;
     border-bottom: 2px solid #222;
   }
 `
@@ -84,11 +85,11 @@ const NavLink = styled(Link)`
 const Header = () => (
   <header
     style={{
-      background: '#eee',
-      borderBottom: '1px solid #ddd',
+      background: '#efefef',
+      //borderBottom: '1px solid #fcbbfa',
       display: 'flex',
       justifyContent: 'space-between',
-      padding: '0.5rem calc((100vw - 550px)/2)',
+      padding: '3rem calc((100vw - 550px)/2)',
     }}
   >
     <NavLink to="/" activeClassName = "current-page"
