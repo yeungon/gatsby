@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-import { Global, css } from '@emotion/core'
+import { Global, css } from '@emotion/core';
 
 import Header from './header'
 
@@ -35,7 +35,7 @@ const Layout = ({ children }) => (
           // CSS in JS
           style={{
             margin: '0 auto',
-            maxWidth: 610,
+            maxWidth: 600,
             //padding: '0px 1.0875rem 1.45rem',
             paddingTop: 0,
            
