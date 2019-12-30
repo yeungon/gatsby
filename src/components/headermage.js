@@ -28,10 +28,7 @@ const HeaderImage = () => {
 
         <Textbox>
       <h1>Vuong Nguyen 's page</h1>
-      <p>
-        Hello <Link to="about">About me</Link>
-      </p>
-
+     
       </Textbox>
     </ImageBackground>
   )

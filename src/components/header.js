@@ -3,71 +3,9 @@ import { Link } from 'gatsby'
 
 // Using style to create css for element
 import styled from '@emotion/styled'
-import HeaderImage from './headermage'
+//import HeaderImage from './headermage'
 
 import css from '@emotion/core'
-
-// const Header = ({ siteTitle }) => (
-//   <div>
-//     {/*====================================================================
-//               Start Nabbar
-//   =====================================================================*/}
-//     <nav className="navbar navbar-expand-lg dark fixed-top navbar-light">
-//       {/* Container */}
-//       <div className="container">
-//         {/* My Logo */}
-
-//         {/* Button Menu */}
-//         <button
-//           className="navbar-toggler"
-//           type="button"
-//           data-toggle="collapse"
-//           data-target="#navtoggler"
-//           aria-controls="navtoggler"
-//           aria-expanded="false"
-//           aria-label="Toggle navigation"
-//         >
-//           <span className="navbar-toggler-icon" />
-//           <span className="navbar-toggler-icon" />
-//           <span className="navbar-toggler-icon" />
-//         </button>
-//         {/* List links */}
-//         <div className="collapse navbar-collapse" id="navtoggler">
-//           <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
-//             <li className="nav-item">
-
-//               <Link className="nav-link" to="/">
-//                 Home
-//               </Link>
-//             </li>
-//             <li className="nav-item">
-//               <Link className="nav-link" to="/about">
-//                 about
-//               </Link>
-//             </li>
-
-//             <li className="nav-item">
-//               <Link className="nav-link" to="/blog">
-//                 blog
-//               </Link>
-//             </li>
-//             <li className="nav-item">
-//               <Link className="nav-link" to="/contact">
-//                 contact
-//               </Link>
-//             </li>
-//           </ul>
-
-//         </div>
-//       </div>
-//       {/* Container */}
-//     </nav>
-//     ;
-//     {/*====================================================================
-//               End Of Navbar
-//   =====================================================================*/}
-//   </div>
-// )
 
 const NavLink = styled(Link)`
   color: #222;
@@ -86,7 +24,7 @@ const NavLink = styled(Link)`
 
 const Header = () => (
   <>
-    <HeaderImage />
+
     <header
       style={{
         background: '#efefef',
