@@ -19,6 +19,8 @@ export const content = {
 
 export const hyperlink = {
   textDecoration: 'none',
-  color: '#2F4E62'
+  color: '#9C27B0',
+  fontWeight: "bold"
+
 
 }

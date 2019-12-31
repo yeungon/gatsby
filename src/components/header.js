@@ -8,7 +8,7 @@ import styled from '@emotion/styled'
 import css from '@emotion/core'
 
 const NavLink = styled(Link)`
-  color: #222;
+  color: #FAFAFA;
   font-size: 1rem;
   font-weght: normal;
   color: '#2F4E62',
@@ -18,16 +18,16 @@ const NavLink = styled(Link)`
   text-decoration: none;
   &.current-page{
     //padding-bottom: 1rem;
-    border-bottom: 2px solid #222;
+    border-bottom: 1px solid #FAFAFA;
+    color: #ed64a6; 
   }
 `
 
 const Header = () => (
   <>
-
     <header
       style={{
-        background: '#efefef',
+        background: '#4c51bf',
         //borderBottom: '1px solid #fcbbfa',
         display: 'flex',
         justifyContent: 'space-between',

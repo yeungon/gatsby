@@ -1,12 +1,12 @@
 
 @font-face {
     font-family: mainFontBold;
-    src: url(/static/Graphik-700-Bold.otf);
+    src: url(/static/font/Graphik-700-Bold.otf);
 }
 
 @font-face {
     font-family: mainFontRegular;
-    src: url(/static/Graphik-400-Regular.otf);
+    src: url(/static/font/Graphik-400-Regular.otf);
 }
 
 
