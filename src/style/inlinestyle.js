@@ -12,7 +12,7 @@ export const heading = {
 export const content = {
   fontSize: '1.1rem',
   color: '#2F4E62',
-  lineHeight: '1.5em',
+  lineHeight: '2.1rem',
   fontWeight: '400',
 
 }

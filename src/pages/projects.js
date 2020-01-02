@@ -16,13 +16,13 @@ const ContactPage = () => (
 
     <p style = {content}>3) [12/2017] English - Vietnamese:  PHP, MySQL, Sphinx <a style = {hyperlink} href = "https://tudien.net/">Link</a></p>
 
-    <p style = {content}>4) [01/2018] English Picture Dictionary: Laravel <a style = {hyperlink}  href = "https://englishpicture.net">Link</a></p>
+    <p style = {content}>4) [01/2018] English Picture Dictionary: Laravel 5.5 <a style = {hyperlink}  href = "https://englishpicture.net">Link</a></p>
 
     <p style = {content}>5) [05/2018] NewNuke - A tiny PHP framework <a  style = {hyperlink} href = "https://github.com/yeungon/newnuke">Link</a></p>
 
     <p style = {content}>6) [05/2018] Advanced PHP exercises: 137 questions <a  style = {hyperlink} href = "https://github.com/yeungon/ZCE">Link</a></p>   
 
-    <p style = {content}>7) [06/2018] F5 network: Laravel. <a  style = {hyperlink} href = "https://f5.nz">Link</a></p>
+    <p style = {content}>7) [06/2018] F5 network: Laravel 5.5. <a  style = {hyperlink} href = "https://f5.nz">Link</a></p>
 
     <p style = {content}>8) [04/2019] WP Security Master - A WordPress plugin <a style = {hyperlink}  href = "https://wordpress.org/plugins/wp-security-master/">Link</a></p>
 

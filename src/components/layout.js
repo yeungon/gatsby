@@ -2,7 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-import { Global, css } from '@emotion/core'
+import { Global, css } from '@emotion/core';
+
+import "./layout.css";
 
 import Header from './header'
 
@@ -36,13 +38,7 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
 
         <div
-          // CSS in JS
-          style={{
-            margin: '0 auto',
-            maxWidth: 600,
-            //padding: '0px 1.0875rem 1.45rem',
-            paddingTop: 0,
-          }}
+       className = 'global___layout'
         >
           {/* Setting up the global style. Emotion package helps us maintain the style better as we can write normal css insider javascript */}
           <Global

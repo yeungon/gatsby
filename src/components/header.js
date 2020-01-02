@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
+import "./header.css";
 // Using style to create css for element
 import styled from '@emotion/styled'
 //import HeaderImage from './headermage'
@@ -17,48 +17,43 @@ const NavLink = styled(Link)`
   //padding: 0.25 rem;
   text-decoration: none;
   &.current-page{
-    //padding-bottom: 1rem;
-    border-bottom: 1px solid #FAFAFA;
-    color: #ed64a6; 
+    //padding-bottom: 1rem;    
+    color: #ed64a6;
+    text-decoration: underline;
+    text-decoration-color: #fff; 
   }
 `
 
 const Header = () => (
   <>
     <header
-      style={{
-        background: '#4c51bf',
-        //borderBottom: '1px solid #fcbbfa',
-        display: 'flex',
-        justifyContent: 'space-between',
-        padding: '3rem calc((100vw - 400px - 0.5rem)/2)',
-      }}
+
+    className = "header___background"   
     >
+    <div className = "header___grid___container">
+    
       <NavLink to="/" activeClassName="current-page">
         Home
       </NavLink>
-
-      <nav
-        style={{
-          marginTop: '0',
-        }}
-      >
+      
         <NavLink to="/about" activeClassName="current-page">
           about
         </NavLink>
-        <span style={{ paddingLeft: '15%' }} />
+        
         <NavLink to="/projects" activeClassName="current-page">
           projects
         </NavLink>
-        <span style={{ paddingLeft: '15%' }} />
+        
         <NavLink to="/blog" activeClassName="current-page">
           blog
         </NavLink>
-        <span style={{ paddingLeft: '15%' }} />
+       
         <NavLink to="/contact" activeClassName="current-page">
           contact
         </NavLink>
-      </nav>
+      
+      </div>
+
     </header>
   </>
 )

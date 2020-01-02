@@ -1,15 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
-import Layout from '../components/layout'
-
-const index = {
-  color: '#2F4E62',
-}
+import Layout from '../components/layout';
+import '../components/index.css';
 
 const IndexPage = () => (
   <Layout>
-    <div style={index}>
+    <div className="grid___index___item">
       <h2
         style={{
           marginTop: '5%',
@@ -17,11 +13,10 @@ const IndexPage = () => (
           fontSize: '3.5rem',
           paddingBottom: '2rem',
           fontFamily: 'mainFontBold',
-
           color: '#1d2d35',
         }}
       >
-        Kia ora. It is Vuong!{' '}
+        Kia ora!{' '}
       </h2>
 
       <p
@@ -39,7 +34,7 @@ const IndexPage = () => (
       <hr />
       <br></br>
       <p>
-        Built on Gatsby && GraphQL && headless WordPress.{' '}
+        Built on Gatsby, GraphQL, CSSGrid && headless WordPress.{' '}
         <a
           style={{ textDecoration: 'none' }}
           href={'https://github.com/yeungon/gatsby'}

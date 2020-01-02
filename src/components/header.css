@@ -1,25 +1,22 @@
+.header___background{
+	background: #4c51bf;	
+	
 
-@font-face {
-    font-family: mainFontBold;
-    src: url(/static/font/Graphik-700-Bold.otf);
+		
 }
 
-@font-face {
-    font-family: mainFontRegular;
-    src: url(/static/font/Graphik-400-Regular.otf);
+.header___grid___container{	
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr 1fr;	
+	width: 620px;
+	justify-items: stretch; 
+	margin: auto;
+	height: 10vh;
+	align-content: center;
+	justify-content: center;
+		
 }
 
-
-
-html{
-  font-size: 100%;
-  box-sizing: border-box;
-  font-family: 'mainFontRegular', "Droid Sans",  "Helvetica Neue", "Ubuntu", "Inter", -system-ui, system-ui, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-  "Ubuntu", "Cantarell", "Droid Sans",
-  sans-serif;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-}
 
 /* 
   ##Device = Desktops
@@ -59,7 +56,6 @@ html{
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
 
 }
 
@@ -69,10 +65,19 @@ html{
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  
-	body{
-		color: red;
+	.header___grid___container{	
+		display: grid;
+		grid-template-columns:1fr 1fr 1fr 1fr 1fr;	
+		width: 480px;
+		justify-items: center; 
+		margin: auto;
+		height: 10vh;
+		align-content: center;
+		justify-content: center;
+			
 	}
+  
+
   
 }
 
@@ -82,10 +87,19 @@ html{
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
-  body{
-		color: red;
+
+	.header___grid___container{	
+		display: grid;
+		grid-template-columns:1fr 1fr 1fr 1fr 1fr;	
+		width: 320px;
+		justify-items: center; 
+		margin: auto;
+		height: 10vh;
+		align-content: center;
+		justify-content: center;
+			
 	}
   
-  
 }
+
+/*credit the hamburger css https://codepen.io/erikterwan/pen/EVzeRP*/
