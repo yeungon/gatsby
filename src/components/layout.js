@@ -2,11 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-import { Global, css } from '@emotion/core';
+import { Global, css } from '@emotion/core'
 
-import "./layout.css";
+import './layout.css'
 
-import Header from './header'
+import Header from './header';
+import Footer from './footer';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -37,9 +38,7 @@ const Layout = ({ children }) => (
 
         <Header siteTitle={data.site.siteMetadata.title} />
 
-        <div
-       className = 'global___layout'
-        >
+        <div className="layout___grid___container">
           {/* Setting up the global style. Emotion package helps us maintain the style better as we can write normal css insider javascript */}
           <Global
             styles={css`
@@ -64,7 +63,9 @@ const Layout = ({ children }) => (
           />
 
           {children}
+          
         </div>
+        <Footer/>
       </>
     )}
   />

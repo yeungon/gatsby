@@ -1,22 +1,18 @@
-.header___background{
-	background: #4c51bf;	
-	
-
-		
+.header___background {
+  background: #4c51bf;
+  
 }
 
-.header___grid___container{	
-	display: grid;
-	grid-template-columns: 2fr 1fr 1fr 1fr 1fr;	
-	width: 620px;
-	justify-items: stretch; 
-	margin: auto;
-	height: 10vh;
-	align-content: center;
-	justify-content: center;
-		
+.header___grid___container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  width: 620px;
+  justify-items: stretch;
+  margin: auto;
+  height: 10vh;
+  align-content: center;
+  justify-content: center;
 }
-
 
 /* 
   ##Device = Desktops
@@ -24,9 +20,6 @@
 */
 
 @media (min-width: 1281px) {
-  
-
-	
 }
 
 /* 
@@ -35,8 +28,6 @@
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  
-  
 }
 
 /* 
@@ -45,9 +36,6 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
-  
-  
 }
 
 /* 
@@ -56,7 +44,6 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
 }
 
 /* 
@@ -65,20 +52,16 @@
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-	.header___grid___container{	
-		display: grid;
-		grid-template-columns:1fr 1fr 1fr 1fr 1fr;	
-		width: 480px;
-		justify-items: center; 
-		margin: auto;
-		height: 10vh;
-		align-content: center;
-		justify-content: center;
-			
-	}
-  
-
-  
+  .header___grid___container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 480px;
+    justify-items: center;
+    margin: auto;
+    height: 10vh;
+    align-content: center;
+    justify-content: center;
+  }
 }
 
 /* 
@@ -87,19 +70,16 @@
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-
-	.header___grid___container{	
-		display: grid;
-		grid-template-columns:1fr 1fr 1fr 1fr 1fr;	
-		width: 320px;
-		justify-items: center; 
-		margin: auto;
-		height: 10vh;
-		align-content: center;
-		justify-content: center;
-			
-	}
-  
+  .header___grid___container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 320px;
+    justify-items: center;
+    margin: auto;
+    height: 10vh;
+    align-content: center;
+    justify-content: center;
+  }
 }
 
 /*credit the hamburger css https://codepen.io/erikterwan/pen/EVzeRP*/

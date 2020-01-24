@@ -1,11 +1,15 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Layout from '../components/layout';
-import '../components/index.css';
+import Layout from '../components/layout'
+import '../components/index.css'
 
 const IndexPage = () => (
+  <div style={{
+    height: '100%'
+    // fontWeight: '400',
+  }}>
   <Layout>
-    <div className="grid___index___item">
+    <div className="layout___grid___items">
       <h2
         style={{
           marginTop: '5%',
@@ -16,7 +20,7 @@ const IndexPage = () => (
           color: '#1d2d35',
         }}
       >
-        Kia ora!{' '}
+        Kia ora!
       </h2>
 
       <p
@@ -43,7 +47,9 @@ const IndexPage = () => (
         </a>
       </p>
     </div>
-  </Layout>
+  </Layout>  
+  
+  </div>
 )
 
 export default IndexPage

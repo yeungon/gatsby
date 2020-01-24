@@ -11,9 +11,9 @@ const About = () => {
         <h1 style={heading}>About me</h1>
         <br />
         <p style={content}>
-          I am a fullstack web eveloper, PHP framework creator, WordPress plugin builder, JAMstack lover. 
+          I am a fullstack web developer, PHP framework creator, WordPress plugin builder, JAMstack lover. 
           
-          I feel comfortable to work with Laravel Vuejs, React and Gatsby. jQuery, Bootstrap, HTML5, CSS3 are also my friends on the daily basis.</p>
+          I feel comfortable to work with Laravel, Vuejs, React and Gatsby. jQuery, Bootstrap, HTML5, CSS3 are also my friends on the daily basis but I'm switching to GridCSS and TailwindCSS</p>
         <br/>
 
         <p style={content}>
