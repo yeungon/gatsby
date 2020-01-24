@@ -40,27 +40,27 @@ const Layout = ({ children }) => (
 
         <div className="layout___grid___container">
           {/* Setting up the global style. Emotion package helps us maintain the style better as we can write normal css insider javascript */}
-          <Global
+          {/* <Global
             styles={css`
               * {
                 box-sizing: border-box;
                 margin: 0;
               }
 
-              // body {
-              //   margin: 0;
-              //   color: #555;
-              //   font-family: 'Helvetica', 'Helvetica Neue', Helvetica, Arial,
-              //     sans-serif;
-              //   font-size: 18px;
-              //   line-height: 1.4;
-              // }
+              body {
+                margin: 0;
+                color: #555;
+                font-family: 'Helvetica', 'Helvetica Neue', Helvetica, Arial,
+                  sans-serif;
+                font-size: 18px;
+                line-height: 1.4;
+              }
 
               > div {
                 margin-top: 0;
               }
             `}
-          />
+          /> */}
 
           {children}
           

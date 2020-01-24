@@ -40,7 +40,15 @@ const ContactPage = () => (
 
     <p style = {content}>15)[10/2019] Porting RegexOne to SPA using Vuejs <a  style = {hyperlink} href = "https://vuongnguyen.net/regex/#/">Link</a></p>
 
+    <p style = {content}>16)[WIP] Porting RegexOne to SPA using React <a  style = {hyperlink} href = "https://regexreact.yeungon.now.sh/">Link - </a><a  style = {hyperlink} href = "https://github.com/yeungon/regexreact">Github</a></p> 
+
+    <p style = {content}>17)[WIP] Advanced JavaScript course - Youtube <a  style = {hyperlink} href = "https://youtube.com/hoccoban">Link</a></p>
+
+  <br/>
+  <br/><br/><br/><br/>
   </Layout>
 )
 
 export default ContactPage
+
+

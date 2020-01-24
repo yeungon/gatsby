@@ -5,7 +5,7 @@ import '../components/index.css'
 
 const IndexPage = () => (
   <div style={{
-    height: '100%'
+    // height: '100%'
     // fontWeight: '400',
   }}>
   <Layout>

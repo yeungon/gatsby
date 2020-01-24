@@ -1,9 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 .layout___grid___container {
+  
   display: grid;
   grid-template-columns: 1fr;
   margin: 0 auto;
   max-width: 620px;
+  min-height: auto;
   padding-top: 0;
+  line-height: 1.4;
 }
 
 /* 
@@ -42,8 +50,8 @@
     margin: 0 auto;
     max-width: 620px;
     padding-top: 0;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 3%;
+    padding-right: 4%;
   }
 }
 
@@ -59,8 +67,8 @@
     margin: 0 auto;
     max-width: 480px;
     padding-top: 0;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 3%;
+    padding-right: 4%;
   }
 }
 
@@ -76,7 +84,7 @@
     margin: 0 auto;
     max-width: 320px;
     padding-top: 0;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 3%;
+    padding-right: 4%;
   }
 }

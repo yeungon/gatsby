@@ -13,7 +13,7 @@ const About = () => {
         <p style={content}>
           I am a fullstack web developer, PHP framework creator, WordPress plugin builder, JAMstack lover. 
           
-          I feel comfortable to work with Laravel, Vuejs, React and Gatsby. jQuery, Bootstrap, HTML5, CSS3 are also my friends on the daily basis but I'm switching to GridCSS and TailwindCSS</p>
+          I feel comfortable to work with Laravel, Vuejs, React and Gatsby. jQuery, Bootstrap, HTML5, CSS3 are also my friends on the daily basis but I'm switching to GridCSS and TailwindCSS. Node (NestJS) also gets my attention.</p>
         <br/>
 
         <p style={content}>
@@ -26,13 +26,7 @@ const About = () => {
           To me, web should be easy to maintain, scale up but secured and a kind of art. Yes, "web/php/gatsby artisan build"!
         </p>
         <br/>
-        <br/>
-        <hr></hr>
-
-      <p></p>
-      <p></p>
-      <p></p>
-        
+        <br/>       
 
       </div>
     </Layout>
